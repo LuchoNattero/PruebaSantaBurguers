@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/it_pedido"
+        android:icon="@drawable/ic_action_menu"
+        android:title="¿Que Pedir?"
+        />
+    <item
+
+        android:id="@+id/it_lista_pedido"
+        android:icon="@drawable/ic_action_inicio_2"
+        android:title="Inicio"
+        />
+    <item
+
+        android:id="@+id/it_configuracion"
+        android:icon="@drawable/ic_action_cuenta"
+        android:title="Mi Cuenta"
+        />
+</menu>

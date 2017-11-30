@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/fondo_degradacion"
+    xmlns:desing="http://schemas.android.com/apk/res-auto"
+    tools:context="grupolrnl.dam.isi.frsf.pruebasantaburguers.PaginaPedidos">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_gravity="start"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@drawable/sombra" />
+
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        >
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_gravity="top"
+            android:background="@drawable/sombra" />
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/bn_barra_navegacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_piel"
+            desing:itemIconTint="@color/color_morado"
+            desing:itemTextColor="@color/color_morado"
+            desing:menu="@menu/menu_toolbar" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="@android:dimen/notification_large_icon_height"
+        android:id="@+id/fl_frame" />
+
+
+</android.support.design.widget.CoordinatorLayout>
